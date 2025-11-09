@@ -1,0 +1,313 @@
+{
+  "organization": {
+    "nombre": "Quether Consulting",
+    "direccion": "C/ Llull 321, 08019 Barcelona, España",
+    "descripcion": "Consultora de estrategia, innovación y transformación para empresas medianas (3-50M€) que necesitan profesionalizarse, digitalizarse y crecer."
+  },
+  "chapters": [
+    {
+      "nombre": "Strategy",
+      "descripción": "Definición de visión, posicionamiento, propuesta de valor, OKRs y gobierno operativo.",
+      "role_templates": ["R-STR-LEAD", "R-STR-SR", "R-PM"]
+    },
+    {
+      "nombre": "Creative",
+      "descripción": "Narrativa, campañas, copy y conceptos creativos alineados a la marca.",
+      "role_templates": ["R-CRT-LEAD", "R-CRT-COPY", "R-PM"]
+    },
+    {
+      "nombre": "Design",
+      "descripción": "Identidad visual, sistemas de diseño, UI y materiales de marca.",
+      "role_templates": ["R-DSN-SR", "R-DSN-MID", "R-PM"]
+    },
+    {
+      "nombre": "Influency",
+      "descripción": "Social media, KOLs/creators e influencia orgánica y pagada.",
+      "role_templates": ["R-INF-MGR", "R-SMM", "R-PM"]
+    },
+    {
+      "nombre": "Performance",
+      "descripción": "Captación y crecimiento mediante canales de pago y SEO/SEM.",
+      "role_templates": ["R-PERF-SPEC", "R-SEO-SEM", "R-PM"]
+    },
+    {
+      "nombre": "Martech",
+      "descripción": "Arquitectura de datos, CRM, analítica, automatización e IA.",
+      "role_templates": ["R-MTX-ARCH", "R-CRM-ADMIN", "R-DATA-ANL", "R-PM"]
+    }
+  ],
+  "roles": [
+    {
+      "id": "R-STR-LEAD",
+      "título": "Head of Strategy",
+      "nivel": "Lead",
+      "responsabilidades": [
+        "Definir visión y prioridades estratégicas (OKRs).",
+        "Alinear roadmap de capítulos con objetivos de negocio.",
+        "Dirigir discovery y workshops ejecutivos."
+      ],
+      "habilidades_requeridas": ["S-OKR", "S-ANALISIS", "S-STAKE"],
+      "dedicación_esperada": "30-40h/semana"
+    },
+    {
+      "id": "R-PM",
+      "título": "Project Manager",
+      "nivel": "Mid",
+      "responsabilidades": [
+        "Planificación de sprints",
+        "Seguimiento de riesgos",
+        "Coordinación de entregables"
+      ],
+      "habilidades_requeridas": ["S-PM", "S-STAKE", "S-ANALISIS", "S-OKR"],
+      "dedicación_esperada": "30-40h/semana"
+    },
+    {
+      "id": "R-MTX-ARCH",
+      "título": "Martech Architect",
+      "nivel": "Lead",
+      "responsabilidades": [
+        "Arquitectura CRM/CDP",
+        "Integraciones n8n/HubSpot",
+        "Gobernanza de datos"
+      ],
+      "habilidades_requeridas": ["S-CRM", "S-AUTOM", "S-DATA", "S-SQLPY"],
+      "dedicación_esperada": "30-40h/semana"
+    },
+    {
+      "id": "R-CRM-ADMIN",
+      "título": "CRM Admin (HubSpot)",
+      "nivel": "Mid",
+      "responsabilidades": [
+        "Pipelines y propiedades",
+        "Workflows y scoring",
+        "Calidad de datos"
+      ],
+      "habilidades_requeridas": ["S-CRM", "S-AUTOM", "S-EMAIL"],
+      "dedicación_esperada": "30-40h/semana"
+    },
+    {
+      "id": "R-DATA-ANL",
+      "título": "Data Analyst",
+      "nivel": "Mid",
+      "responsabilidades": [
+        "Modelado de datos",
+        "Dashboards ROI",
+        "Definición de métricas"
+      ],
+      "habilidades_requeridas": ["S-ANALYTICS", "S-SQLPY", "S-DATA", "S-ABTEST"],
+      "dedicación_esperada": "30-40h/semana"
+    },
+    {
+      "id": "R-CRT-LEAD",
+      "título": "Creative Director",
+      "nivel": "Lead",
+      "responsabilidades": [
+        "Línea creativa y estándares",
+        "Storytelling de casos",
+        "Supervisión de campañas"
+      ],
+      "habilidades_requeridas": ["S-STORY", "S-COPY", "S-BRAND", "S-GENAI"],
+      "dedicación_esperada": "30-40h/semana"
+    },
+    {
+      "id": "R-DSN-SR",
+      "título": "Senior Brand/UI Designer",
+      "nivel": "Senior",
+      "responsabilidades": [
+        "Sistemas de identidad",
+        "Guías visuales",
+        "UI para microapps"
+      ],
+      "habilidades_requeridas": ["S-BRAND", "S-UIUX", "S-FIGMA", "S-GENAI"],
+      "dedicación_esperada": "30-40h/semana"
+    },
+    {
+      "id": "R-PERF-SPEC",
+      "título": "Performance Media Specialist",
+      "nivel": "Senior",
+      "responsabilidades": [
+        "Planificación y optimización",
+        "Gestión de CAC/LTV",
+        "Experimentación A/B"
+      ],
+      "habilidades_requeridas": ["S-ADS-GA", "S-ADS-META", "S-ABTEST"],
+      "dedicación_esperada": "30-40h/semana"
+    },
+    {
+      "id": "R-SEO-SEM",
+      "título": "SEO/SEM Manager",
+      "nivel": "Senior",
+      "responsabilidades": [
+        "SEO técnico y contenidos",
+        "SEM full-funnel",
+        "Reporting de crecimiento"
+      ],
+      "habilidades_requeridas": ["S-SEO", "S-ADS-GA", "S-ANALYTICS", "S-COPY"],
+      "dedicación_esperada": "30-40h/semana"
+    },
+    {
+      "id": "R-SMM",
+      "título": "Social Media Strategist",
+      "nivel": "Mid",
+      "responsabilidades": [
+        "Estrategia por canal",
+        "Calendario editorial",
+        "Coordinación con performance"
+      ],
+      "habilidades_requeridas": ["S-SOCIAL", "S-COPY", "S-EMAIL"],
+      "dedicación_esperada": "30-40h/semana"
+    },
+    {
+      "id": "R-INF-MGR",
+      "título": "Influency Manager",
+      "nivel": "Mid",
+      "responsabilidades": [
+        "Ecosistema de creadores",
+        "Activaciones",
+        "Medición orgánica"
+      ],
+      "habilidades_requeridas": ["S-SOCIAL", "S-STAKE"],
+      "dedicación_esperada": "30-40h/semana"
+    },
+    {
+      "id": "R-STR-SR",
+      "título": "Senior Strategy Consultant",
+      "nivel": "Senior",
+      "responsabilidades": [
+        "Discovery avanzado",
+        "Casos de negocio",
+        "Operar rituales de gobierno"
+      ],
+      "habilidades_requeridas": ["S-ANALISIS", "S-STAKE", "S-OKR"],
+      "dedicación_esperada": "30-40h/semana"
+    }
+  ],
+  "skills": [
+    {
+      "id": "S-OKR",
+      "nombre": "OKRs y Roadmapping",
+      "categoria": "Estrategia",
+      "peso": 5
+    },
+    {
+      "id": "S-ANALISIS",
+      "nombre": "Análisis de Negocio",
+      "categoria": "Estrategia",
+      "peso": 5
+    },
+    {
+      "id": "S-STAKE",
+      "nombre": "Gestión de Stakeholders",
+      "categoria": "Estrategia",
+      "peso": 4
+    },
+    {
+      "id": "S-PM",
+      "nombre": "Gestión de Proyectos",
+      "categoria": "Estrategia",
+      "peso": 5
+    },
+    {
+      "id": "S-ANALYTICS",
+      "nombre": "Analítica Digital",
+      "categoria": "Datos",
+      "peso": 4
+    },
+    {
+      "id": "S-CRM",
+      "nombre": "Admin. CRM (HubSpot)",
+      "categoria": "Martech",
+      "peso": 5
+    },
+    {
+      "id": "S-AUTOM",
+      "nombre": "Automatización (n8n)",
+      "categoria": "Martech",
+      "peso": 5
+    },
+    {
+      "id": "S-DATA",
+      "nombre": "Modelado de Datos",
+      "categoria": "Datos",
+      "peso": 5
+    },
+    {
+      "id": "S-SQLPY",
+      "nombre": "SQL y Python",
+      "categoria": "Datos",
+      "peso": 5
+    },
+    {
+      "id": "S-EMAIL",
+      "nombre": "Email Marketing",
+      "categoria": "Martech",
+      "peso": 3
+    },
+    {
+      "id": "S-ABTEST",
+      "nombre": "A/B Testing",
+      "categoria": "Performance",
+      "peso": 4
+    },
+    {
+      "id": "S-STORY",
+      "nombre": "Storytelling",
+      "categoria": "Creativo",
+      "peso": 5
+    },
+    {
+      "id": "S-COPY",
+      "nombre": "Copywriting",
+      "categoria": "Creativo",
+      "peso": 4
+    },
+    {
+      "id": "S-BRAND",
+      "nombre": "Branding",
+      "categoria": "Diseño",
+      "peso": 5
+    },
+    {
+      "id": "S-GENAI",
+      "nombre": "IA Generativa",
+      "categoria": "Creativo",
+      "peso": 3
+    },
+    {
+      "id": "S-UIUX",
+      "nombre": "Diseño UI/UX",
+      "categoria": "Diseño",
+      "peso": 5
+    },
+    {
+      "id": "S-FIGMA",
+      "nombre": "Figma Avanzado",
+      "categoria": "Diseño",
+      "peso": 5
+    },
+    {
+      "id": "S-ADS-GA",
+      "nombre": "Google Ads",
+      "categoria": "Performance",
+      "peso": 5
+    },
+    {
+      "id": "S-ADS-META",
+      "nombre": "Meta Ads",
+      "categoria": "Performance",
+      "peso": 5
+    },
+    {
+      "id": "S-SEO",
+      "nombre": "SEO/SEM",
+      "categoria": "Performance",
+      "peso": 5
+    },
+    {
+      "id": "S-SOCIAL",
+      "nombre": "Social Media Strategy",
+      "categoria": "Influency",
+      "peso": 4
+    }
+  ]
+}
