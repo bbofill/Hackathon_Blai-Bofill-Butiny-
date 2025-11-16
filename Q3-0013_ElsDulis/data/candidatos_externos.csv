@@ -1,3 +1,0 @@
-id_empleado,nombre,email,chapter,rol_actual,manager,antigüedad,habilidades,responsabilidades_actuales,dedicación_actual,ambiciones,metadata
-1013,hector,blaibofill@gmai.com,Externo,Candidato Externo,,0m,{'S-AUTOM': 5},[],{},{'nivel_aspiración': 'junior'},{'tipo': 'Externo'}
-1012,blai,blai@gmail.com,Externo,Candidato Externo,N/A,0m,{'S-CRM': 5},[],{},{'nivel_aspiración': 'junior'},{'tipo': 'Externo'}
